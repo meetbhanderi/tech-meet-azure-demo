@@ -5,6 +5,18 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechMeet-BE", "TechMeet-BE\TechMeet-BE.csproj", "{5FCEEA72-DE2A-457F-9113-2F04FC32626E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Initigrations", "Initigrations", "{3340286F-EFB9-4D11-A71D-11AFEDB95651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.KeyVault", "Azure.KeyVault\Azure.KeyVault.csproj", "{D97256A0-3497-40FF-A3D1-8BDC6D1415A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechMeet-BE.Common", "TechMeet-BE.Common\TechMeet-BE.Common.csproj", "{86B5FF72-D30D-4EA7-86E9-54BD1A431E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechMeet-BE.Domain", "TechMeet-BE.Domain\TechMeet-BE.Domain.csproj", "{8F788CF2-1D4B-4DD6-B470-EF2DE4810B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechMeet-BE.Services", "TechMeet-BE.Services\TechMeet-BE.Services.csproj", "{99D7526A-F15E-4442-AFE9-6DA8B16E5CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.CalendarSync", "Azure.CalendarSync\Azure.CalendarSync.csproj", "{58537C7A-D563-4F16-A60A-241D1262504D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,33 @@ Global
 		{5FCEEA72-DE2A-457F-9113-2F04FC32626E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FCEEA72-DE2A-457F-9113-2F04FC32626E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FCEEA72-DE2A-457F-9113-2F04FC32626E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97256A0-3497-40FF-A3D1-8BDC6D1415A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97256A0-3497-40FF-A3D1-8BDC6D1415A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97256A0-3497-40FF-A3D1-8BDC6D1415A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97256A0-3497-40FF-A3D1-8BDC6D1415A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B5FF72-D30D-4EA7-86E9-54BD1A431E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B5FF72-D30D-4EA7-86E9-54BD1A431E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B5FF72-D30D-4EA7-86E9-54BD1A431E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B5FF72-D30D-4EA7-86E9-54BD1A431E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F788CF2-1D4B-4DD6-B470-EF2DE4810B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F788CF2-1D4B-4DD6-B470-EF2DE4810B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F788CF2-1D4B-4DD6-B470-EF2DE4810B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F788CF2-1D4B-4DD6-B470-EF2DE4810B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D7526A-F15E-4442-AFE9-6DA8B16E5CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D7526A-F15E-4442-AFE9-6DA8B16E5CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D7526A-F15E-4442-AFE9-6DA8B16E5CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D7526A-F15E-4442-AFE9-6DA8B16E5CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58537C7A-D563-4F16-A60A-241D1262504D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58537C7A-D563-4F16-A60A-241D1262504D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58537C7A-D563-4F16-A60A-241D1262504D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58537C7A-D563-4F16-A60A-241D1262504D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D97256A0-3497-40FF-A3D1-8BDC6D1415A8} = {3340286F-EFB9-4D11-A71D-11AFEDB95651}
+		{58537C7A-D563-4F16-A60A-241D1262504D} = {3340286F-EFB9-4D11-A71D-11AFEDB95651}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1735AF55-142E-498E-985E-790BCB7C81BF}
